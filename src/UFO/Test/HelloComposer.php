@@ -9,7 +9,7 @@ namespace UFO\Test;
  */
 class HelloComposer {
 
-	__construct(string $name = 'world') {
+	public function __construct(string $name = 'world') {
 		var_dump('Hello '.$name);
 	}
 
